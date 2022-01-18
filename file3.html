@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password Reset</title>
+    
+    <style>
+        body{
+            background-image:  url(main_img.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .main-heading{
+            text-align: center;
+            font-size: 36px;
+            font-weight: bolder;
+            font-family: monospace;
+        }
+        .main-2{
+            border: 1px solid black;
+            border-top: 10px solid rgb(253, 18, 18);
+            text-align: center;
+            width: 40%;
+            margin: auto;
+         
+            
+        }
+        .btn{
+            background-color: rgb(252, 13, 13);
+            color: white;
+            padding: 8px;
+            font-size: 15px;
+            width: 90%;
+            margin: 10px 5px 10px 5px;
+            border-radius: 3px;
+            border-color: white;
+            
+        }
+      
+        .email{
+            width: 90%;
+            margin: 5px 5px 5px 5px;
+            height: 0.8cm;
+        }
+        .label{
+            float: left;
+            margin-left: 0.3cm;
+            margin-top: 0.5cm;
+            
+        }
+        .btn-inside{
+            text-decoration: none;
+            color: white;
+        }
+        @media (max-width:600px)and (min-width:300px){
+            .main-2{
+                width: 70%;
+            }
+        }
+        @media (max-width:300px){
+            .main-2{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div><h1 class="main-heading">Password Reset</h1></div>
+    <div class="main-2">
+        <form>
+            <label class="label">New-password</label><br>
+            <input type="password" placeholder="email" class="email">
+            <label class="label">confirm-password</label><br>
+            <input type="password" placeholder="email" class="email">
+        </form>
+        <button class="btn"><a href="file4.html" class="btn-inside">RESET PASSWORD</a></button>
+  
+    </div>
+</body>
+</html>
